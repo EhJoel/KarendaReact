@@ -7,7 +7,7 @@ function Puppies() {
     <div className="puppies">
       <div 
       className="puppiesTop"
-        style= {{ backgroundImage: `url(${Puppies_AI}`}}
+        style= {{ backgroundImage: `url(${Puppies_AI }`}}
         ></div>
 
       <div className="puppiesBottom">
