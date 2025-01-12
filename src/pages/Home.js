@@ -8,7 +8,7 @@ function Home() {
   return (
     <><div className="home">
       <div className="homeLeft"
-        style={{ backgroundImage: `url(${BannerImage}` }}>
+        style={{ backgroundImage: `url(${BannerImage})` }}>
       </div>
       <div className='homeRight'>
         <h1>Karenda Labradors</h1>
@@ -23,7 +23,9 @@ function Home() {
 
 
 
-    </div><div className="home">
+    </div>
+    
+    <div id="home2" className="home">
         <div className="homeLeft2">
         <h1>Puppies</h1>
           <p className="homeText"> We strive to breed and show quality Labradors,
@@ -34,7 +36,7 @@ function Home() {
                 <button className="homeButton">Puppy Enquiry </button>
                 </Link>
         </div>
-        <div className='homeRight2' style={{ backgroundImage: `url(${BannerImage2}` }}>
+        <div className='homeRight2' style={{ backgroundImage: `url(${BannerImage2})` }}>
          
         </div>
 

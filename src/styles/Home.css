@@ -77,4 +77,46 @@
   gap: 20px
 }
 
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column-reverse;  
+  
+  }
+  #home2 {
+    flex-direction: column;
 
+  }
+
+  .home .homeLeft, .home .homeRight2 {
+    height: 40vh; /* Keep photos visible but proportionate */
+    background-size: cover; /* Ensure photos fill their sections */
+    background-position: center;
+  }
+
+  .home .homeRight, .home .homeLeft2 {
+    padding: 20px;
+    text-align: center; /* Center-align text for better readability */
+  }
+
+  .home .homeRight h1, .home .homeLeft2 h1 {
+    font-size: 30px; /* Adjust heading font size */
+  }
+
+  .home .homeText {
+    font-size: 14px; /* Adjust text size for smaller screens */
+    line-height: 1.6; /* Improve text readability */
+    margin: 10px 0;
+  }
+
+  .homeButton {
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto; /* Center the buttons */
+    font-size: 14px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px; /* Stack buttons vertically with spacing */
+  }
+}
