@@ -11,6 +11,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#logo{
+  min-height: 20vh;
+  min-width: 40vh;
+}
 
 .homeText{
 

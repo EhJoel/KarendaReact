@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from"react-router-dom";
 import BannerImage from "../assets/rosanay.jpg";
 import BannerImage2 from "../assets/Blackpuppy.jpg"
+import Logo from "../assets/Logowhite.png"
 import '../styles/Home.css';
 
 function Home() {
@@ -11,7 +12,7 @@ function Home() {
         style={{ backgroundImage: `url(${BannerImage})` }}>
       </div>
       <div className='homeRight'>
-        <h1>Karenda Labradors</h1>
+      <img id="logo" src={Logo} alt="Karenda Logo"/>
         <p className="homeText"> We are reputable Registered Breeders (Dogs Australia) of Labrador Retrievers and local members of Dogs Tasmania.
           We strive to breed and show quality Labradors, focusing on breeding dogs with only exceptional temperaments, soundness and producing well-rounded family-friendly dogs.
           We regularly exhibit our dogs in the show ring both in Tasmania and interstate.
