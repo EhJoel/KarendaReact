@@ -84,7 +84,7 @@
 @media (max-width: 768px) {
   .home {
     flex-direction: column-reverse; 
-      margin-top: 15rem; 
+      margin-top: 10rem; 
       justify-content: none;
      
   
