@@ -7,7 +7,7 @@ import '../styles/Home.css';
 function Home() {
   return (
     <><div className="home">
-      <div className="homeLeft"
+      <div id="homeLeftID" className="homeLeft"
         style={{ backgroundImage: `url(${BannerImage})` }}>
       </div>
       <div className='homeRight'>

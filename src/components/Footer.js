@@ -9,9 +9,10 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
+        
       </div>
       <p> &copy; 2025 Karenda Labradors</p>
+      <p>Created By Joel Snell</p>
     </div>
   );
 }

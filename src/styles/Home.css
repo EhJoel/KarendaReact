@@ -79,18 +79,28 @@
 
 @media (max-width: 768px) {
   .home {
-    flex-direction: column-reverse;  
+    flex-direction: column-reverse; 
+      margin-top: 70px; 
+      justify-content: none;
+     
   
   }
   #home2 {
     flex-direction: column;
+    margin: 0;
+    justify-content: none;
 
   }
 
+  #homeLeftID{
+    min-height: 350px;
+  }
+
   .home .homeLeft, .home .homeRight2 {
-    height: 40vh; /* Keep photos visible but proportionate */
+    height: 50vh; /* Keep photos visible but proportionate */
     background-size: cover; /* Ensure photos fill their sections */
     background-position: center;
+
   }
 
   .home .homeRight, .home .homeLeft2 {
