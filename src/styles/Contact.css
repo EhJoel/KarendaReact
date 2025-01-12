@@ -27,6 +27,21 @@
     font-size: 50px;
     margin-left: 30px;
   }
+
+  .contactUL{
+
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .contactUL > li {
+    gap: 20px;
+  }
+  .contactH1{
+
+    text-align: center;
+  }
   
   form {
     display: flex;
