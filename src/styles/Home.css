@@ -84,7 +84,7 @@
 @media (max-width: 768px) {
   .home {
     flex-direction: column-reverse; 
-      margin-top: 70px; 
+      margin-top: 15rem; 
       justify-content: none;
      
   
@@ -100,16 +100,12 @@
     min-height: 350px;
   }
 
-  .home .homeLeft, .home .homeRight2 {
-    height: 50vh; /* Keep photos visible but proportionate */
-    background-size: cover; /* Ensure photos fill their sections */
-    background-position: center;
-
-  }
+ 
 
   .home .homeRight, .home .homeLeft2 {
-    padding: 20px;
-    text-align: center; /* Center-align text for better readability */
+    padding: 10px;
+    text-align: center; 
+   
   }
 
   .home .homeRight h1, .home .homeLeft2 h1 {
